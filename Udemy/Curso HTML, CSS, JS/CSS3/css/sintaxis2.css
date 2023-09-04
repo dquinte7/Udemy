@@ -1,0 +1,11 @@
+#contenedor p {
+    color: yellowgreen;
+}
+
+#contenedor p:first-child {
+    color: aqua;
+}
+
+#contenedor p:nth-child(3) {
+    color: red;
+}
