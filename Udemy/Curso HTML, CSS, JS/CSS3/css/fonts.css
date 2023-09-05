@@ -1,4 +1,13 @@
-h1{
-    font-family: 'Times New Roman', Times, serif;
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+#typeFonts p:first-child {
+    font-family: 'Oswald', sans-serif;
+}
+
+#typeFonts p:nth-child(2) {
+    font-family: 'Dosis', sans-serif;
+
+}
