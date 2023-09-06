@@ -1,0 +1,39 @@
+div{
+    background-color: rgb(181, 178, 178);
+    width: 300px;
+    height: 300px;
+
+    max-width: 400px;
+    min-width: 300px;
+
+    max-height: 400px;
+    min-height: 300px;
+}
+
+/*Padding*/
+
+div{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+    padding: 50px;
+    padding: 80px 60px 20px 35px;
+}
+
+div{
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+
+    border: 10px solid green;
+
+    border-radius: 20%;
+}
+
+/*Margin*/
+
+div{
+    margin: 50px 35px 50px 35px;
+}
