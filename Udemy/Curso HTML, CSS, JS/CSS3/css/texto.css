@@ -1,0 +1,31 @@
+/*Estilo en el texto*/
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(18, 205, 143);
+    cursor: pointer;
+}
+
+/*Espaciado de letras*/
+h1 {
+    letter-spacing: 5px;
+}
+
+/*Espaciado de palabras*/
+h1 {
+    word-spacing: 30px;
+}
+
+/*Interlineado*/
+h1{
+    line-height: 100px;
+}
+/*Sangría*/
+h1{
+    text-indent: 50px;
+}
+/*Alineación de texto*/
+h1{
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(28, 126, 153);
+}
+
+/*Hexadecimal*/
+div{
+    background-color: #690d0d;
+}
+
+/*RGB*/
+div{
+    background-color: rgb(28, 126, 153);
+}
+
+/*HSL*/
+div{
+    background-color: hsl(250deg, 30%, 50%);
+}
+
+/*Transparencia*/
+div{
+    background-color: transparent;
+    background-color: #690d0d20;
+}
+
+/*Degradado*/
+div{
+    background: linear-gradient(120deg, blue, red);
+    background: radial-gradient(blue, green, red, brown);
+}
