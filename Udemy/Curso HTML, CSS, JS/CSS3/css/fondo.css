@@ -1,0 +1,38 @@
+#contenedor {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+/*Fondo plano*/
+#contenedor {
+    background: rgba(3, 148, 192, 0.284);
+}
+
+/*Fondo degradado*/
+
+#contenedor {
+    background: linear-gradient(90deg, blue, orange);
+    background: radial-gradient(orange, green);
+}
+
+/*Imagen de fondo*/
+
+#contenedor {
+   /* background-image: url(../imagenes/Siames.jpeg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;*/
+
+    /*Simplificar*/
+    background: url(../imagenes/Siames.jpeg) no-repeat scroll center;
+    background-size: cover;
+}
+
+.contenido{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(227, 207, 207, 0.8);
+}

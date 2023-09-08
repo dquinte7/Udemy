@@ -1,0 +1,17 @@
+p{
+    margin: 0;
+}
+
+#desbordamiento{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(229, 181, 124);
+
+    overflow: auto;
+}
+
+#despliegue{
+    column-count: 3;
+    column-gap: 5em;
+    column-rule: 3px dashed black;
+}
