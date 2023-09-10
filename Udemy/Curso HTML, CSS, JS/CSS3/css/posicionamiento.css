@@ -1,0 +1,60 @@
+* {
+    font-family: arial;
+}
+
+article {
+    border: 1px solid #AEB6BF;
+    margin-bottom: 100px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #A9CCE3;
+    line-height: 200px;
+    text-align: center;
+}
+
+.bloque div {
+    display: block;
+}
+
+.linea div {
+    display: inline;
+    display: inline-block;
+}
+
+.tabla div {
+    display: table-cell;
+}
+
+#relativo {
+    position: relative;
+    left: 300px;
+}
+
+#absoluto {
+    position: absolute;
+    right: 50px;
+}
+
+#fijo{
+    /*position: fixed;*/
+    background: rgb(102, 102, 190);
+    right: 100px;
+    top: 200px;
+}
+
+.flotante  div{
+    height: 400px;
+    width: 100%;
+}
+
+.flotante  div{
+    float:left;
+}
+
+.flotante div:nth-child(2){
+    float: right;
+}
