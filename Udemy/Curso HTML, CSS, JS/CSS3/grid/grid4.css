@@ -1,0 +1,17 @@
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+
+
+    justify-items: center;
+
+    align-items: center;
+}
+
+.grid .elemento {
+    background: #194516;
+    justify-self: start;
+    align-self: start;
+}

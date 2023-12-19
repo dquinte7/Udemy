@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.grid .element {
+    background: rgb(193, 24, 24);
+
+    /*grid-column-start: 1;
+    grid-column-end: -1;
+
+    grid-row-start:1;
+    grid-row-end:3 ;*/
+
+    /*Atajo
+    grid-column: 3 / 5;
+    grid-row: 1/3;*/
+
+    /*Atajo
+    grid-area: 1/2/4/5;
+    */
+
+    grid-column: span 4;
+    grid-row: 2 / span 3;
+}
