@@ -1,0 +1,18 @@
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 100px 200px 100px;
+
+    grid-auto-flow: dense;
+}
+
+.grid .span2 {
+    background: #4996a0;
+    grid-column: span 2;
+}
+
+.grid .span3 {
+    background: #88b0b1;
+    grid-column: span 3;
+}
